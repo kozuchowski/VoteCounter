@@ -12,10 +12,12 @@ public class Main {
         Vote a = new Vote(Arrays.asList("a", "c", "b"));
         Vote b = new Vote(Arrays.asList("a", "b", "c"));
         Vote c = new Vote(Arrays.asList("b", "a", "c"));
+        Vote d = new Vote(Arrays.asList("b", "a", "c"));
 
         votes.add(a);
         votes.add(b);
         votes.add(c);
+        votes.add(d);
 
         System.out.println(voteCounter.processVotes(votes));
 
